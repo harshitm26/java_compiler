@@ -1,0 +1,2766 @@
+Starting parse
+Entering state 0
+Reading a token: Next token is token PUBLIC ()
+Shifting token PUBLIC ()
+Entering state 11
+Reducing stack by rule 60 (line 513):
+   $1 = token PUBLIC ()
+-> $$ = nterm Modifier ()
+Stack now 0
+Entering state 26
+Reducing stack by rule 58 (line 505):
+   $1 = nterm Modifier ()
+-> $$ = nterm Modifiers ()
+Stack now 0
+Entering state 25
+Reading a token: Next token is token CLASS ()
+Shifting token CLASS ()
+Entering state 43
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43
+Entering state 60
+Reading a token: Next token is token LEFTCURLYBRACE ()
+Reducing stack by rule 76 (line 572):
+-> $$ = nterm $@3 ()
+Stack now 0 25 43 60
+Entering state 104
+Next token is token LEFTCURLYBRACE ()
+Shifting token LEFTCURLYBRACE ()
+Entering state 68
+Reading a token: Next token is token PUBLIC ()
+Shifting token PUBLIC ()
+Entering state 11
+Reducing stack by rule 60 (line 513):
+   $1 = token PUBLIC ()
+-> $$ = nterm Modifier ()
+Stack now 0 25 43 60 104 68
+Entering state 26
+Reducing stack by rule 58 (line 505):
+   $1 = nterm Modifier ()
+-> $$ = nterm Modifiers ()
+Stack now 0 25 43 60 104 68
+Entering state 113
+Reading a token: Next token is token DOUBLE ()
+Shifting token DOUBLE ()
+Entering state 79
+Reducing stack by rule 25 (line 352):
+   $1 = token DOUBLE ()
+-> $$ = nterm FloatingPointType ()
+Stack now 0 25 43 60 104 68 113
+Entering state 89
+Reducing stack by rule 18 (line 318):
+   $1 = nterm FloatingPointType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 113
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 113
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 113
+Entering state 135
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 113 135
+Entering state 127
+Reading a token: Next token is token LEFTROUNDBRACE ()
+Shifting token LEFTROUNDBRACE ()
+Entering state 159
+Reading a token: Next token is token DOUBLE ()
+Reducing stack by rule 111 (line 879):
+-> $$ = nterm $@6 ()
+Stack now 0 25 43 60 104 68 113 135 127 159
+Entering state 254
+Next token is token DOUBLE ()
+Shifting token DOUBLE ()
+Entering state 79
+Reducing stack by rule 25 (line 352):
+   $1 = token DOUBLE ()
+-> $$ = nterm FloatingPointType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 89
+Reducing stack by rule 18 (line 318):
+   $1 = nterm FloatingPointType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 297
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 297
+Entering state 255
+Reducing stack by rule 102 (line 762):
+   $1 = nterm Identifier ()
+-> $$ = nterm VariableDeclaratorId ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 297
+Entering state 393
+Reading a token: Next token is token COMMA ()
+Reducing stack by rule 116 (line 929):
+   $1 = nterm Type ()
+   $2 = nterm VariableDeclaratorId ()
+-> $$ = nterm FormalParameter ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 299
+Reducing stack by rule 114 (line 909):
+   $1 = nterm FormalParameter ()
+-> $$ = nterm FormalParameterList ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 358
+Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 394
+Reading a token: Next token is token INT ()
+Shifting token INT ()
+Entering state 81
+Reducing stack by rule 21 (line 333):
+   $1 = token INT ()
+-> $$ = nterm IntegralType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394
+Entering state 88
+Reducing stack by rule 17 (line 314):
+   $1 = nterm IntegralType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394
+Entering state 297
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394 297
+Entering state 255
+Reducing stack by rule 102 (line 762):
+   $1 = nterm Identifier ()
+-> $$ = nterm VariableDeclaratorId ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394 297
+Entering state 393
+Reading a token: Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 116 (line 929):
+   $1 = nterm Type ()
+   $2 = nterm VariableDeclaratorId ()
+-> $$ = nterm FormalParameter ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254 358 394
+Entering state 470
+Reducing stack by rule 115 (line 916):
+   $1 = nterm FormalParameterList ()
+   $2 = token COMMA ()
+   $3 = nterm FormalParameter ()
+-> $$ = nterm FormalParameterList ()
+Stack now 0 25 43 60 104 68 113 135 127 159 254
+Entering state 358
+Next token is token RIGHTROUNDBRACE ()
+Shifting token RIGHTROUNDBRACE ()
+Entering state 437
+Reducing stack by rule 112 (line 878):
+   $1 = nterm Identifier ()
+   $2 = token LEFTROUNDBRACE ()
+   $3 = nterm $@6 ()
+   $4 = nterm FormalParameterList ()
+   $5 = token RIGHTROUNDBRACE ()
+-> $$ = nterm MethodDeclarator ()
+Stack now 0 25 43 60 104 68 113 135
+Entering state 169
+Reading a token: Next token is token LEFTCURLYBRACE ()
+Reducing stack by rule 108 (line 824):
+   $1 = nterm Modifiers ()
+   $2 = nterm Type ()
+   $3 = nterm MethodDeclarator ()
+-> $$ = nterm MethodHeader ()
+Stack now 0 25 43 60 104 68
+Entering state 120
+Next token is token LEFTCURLYBRACE ()
+Shifting token LEFTCURLYBRACE ()
+Entering state 146
+Reading a token: Next token is token INT ()
+Reducing stack by rule 160 (line 1241):
+-> $$ = nterm $@10 ()
+Stack now 0 25 43 60 104 68 120 146
+Entering state 173
+Next token is token INT ()
+Shifting token INT ()
+Entering state 81
+Reducing stack by rule 21 (line 333):
+   $1 = token INT ()
+-> $$ = nterm IntegralType ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 88
+Reducing stack by rule 17 (line 314):
+   $1 = nterm IntegralType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 86
+Reading a token: Next token is token LEFTSQUAREBRACE ()
+Shifting token LEFTSQUAREBRACE ()
+Entering state 132
+Reading a token: Next token is token RIGHTSQUAREBRACE ()
+Shifting token RIGHTSQUAREBRACE ()
+Entering state 165
+Reducing stack by rule 31 (line 390):
+   $1 = nterm PrimitiveType ()
+   $2 = token LEFTSQUAREBRACE ()
+   $3 = token RIGHTSQUAREBRACE ()
+-> $$ = nterm ArrayType ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 92
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 27 (line 363):
+   $1 = nterm ArrayType ()
+-> $$ = nterm ReferenceType ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 90
+Reducing stack by rule 13 (line 294):
+   $1 = nterm ReferenceType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 208
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 120 146 173 208
+Entering state 255
+Reducing stack by rule 102 (line 762):
+   $1 = nterm Identifier ()
+-> $$ = nterm VariableDeclaratorId ()
+Stack now 0 25 43 60 104 68 120 146 173 208
+Entering state 130
+Reading a token: Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 162
+Reading a token: Next token is token NEW ()
+Shifting token NEW ()
+Entering state 197
+Reading a token: Next token is token INT ()
+Shifting token INT ()
+Entering state 81
+Reducing stack by rule 21 (line 333):
+   $1 = token INT ()
+-> $$ = nterm IntegralType ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197
+Entering state 88
+Reducing stack by rule 17 (line 314):
+   $1 = nterm IntegralType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197
+Entering state 315
+Reading a token: Next token is token LEFTSQUAREBRACE ()
+Shifting token LEFTSQUAREBRACE ()
+Entering state 407
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 237
+Reading a token: Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 236
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 270
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 278
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 279
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 280
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 281
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 282
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 283
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 284
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 285
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 286
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 287
+Next token is token RIGHTSQUAREBRACE ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315 407
+Entering state 477
+Next token is token RIGHTSQUAREBRACE ()
+Shifting token RIGHTSQUAREBRACE ()
+Entering state 520
+Reducing stack by rule 305 (line 2075):
+   $1 = token LEFTSQUAREBRACE ()
+   $2 = nterm Expression ()
+   $3 = token RIGHTSQUAREBRACE ()
+-> $$ = nterm DimExpr ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315
+Entering state 409
+Reducing stack by rule 303 (line 2060):
+   $1 = nterm DimExpr ()
+-> $$ = nterm DimExprs ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162 197 315
+Entering state 408
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 300 (line 2043):
+   $1 = token NEW ()
+   $2 = nterm PrimitiveType ()
+   $3 = nterm DimExprs ()
+-> $$ = nterm ArrayCreationExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 239
+Reducing stack by rule 287 (line 1946):
+   $1 = nterm ArrayCreationExpression ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 291
+Reducing stack by rule 104 (line 781):
+   $1 = nterm Expression ()
+-> $$ = nterm VariableInitializer ()
+Stack now 0 25 43 60 104 68 120 146 173 208 130 162
+Entering state 266
+Reducing stack by rule 101 (line 750):
+   $1 = nterm VariableDeclaratorId ()
+   $2 = token EQUALS ()
+   $3 = nterm VariableInitializer ()
+-> $$ = nterm VariableDeclarator ()
+Stack now 0 25 43 60 104 68 120 146 173 208
+Entering state 129
+Reducing stack by rule 98 (line 725):
+   $1 = nterm VariableDeclarator ()
+-> $$ = nterm VariableDeclarators ()
+Stack now 0 25 43 60 104 68 120 146 173 208
+Entering state 330
+Next token is token SEMICOLON ()
+Reducing stack by rule 170 (line 1297):
+   $1 = nterm Type ()
+   $2 = nterm VariableDeclarators ()
+-> $$ = nterm LocalVariableDeclaration ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 217
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 337
+Reducing stack by rule 168 (line 1286):
+   $1 = nterm LocalVariableDeclaration ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm LocalVariableDeclarationStatement ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 216
+Reducing stack by rule 166 (line 1275):
+   $1 = nterm LocalVariableDeclarationStatement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 215
+Reducing stack by rule 164 (line 1259):
+   $1 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 295
+Reading a token: Next token is token INT ()
+Shifting token INT ()
+Entering state 81
+Reducing stack by rule 21 (line 333):
+   $1 = token INT ()
+-> $$ = nterm IntegralType ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 88
+Reducing stack by rule 17 (line 314):
+   $1 = nterm IntegralType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 208
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208
+Entering state 255
+Reducing stack by rule 102 (line 762):
+   $1 = nterm Identifier ()
+-> $$ = nterm VariableDeclaratorId ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208
+Entering state 130
+Reading a token: Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 162
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 237
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 291
+Reducing stack by rule 104 (line 781):
+   $1 = nterm Expression ()
+-> $$ = nterm VariableInitializer ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208 130 162
+Entering state 266
+Reducing stack by rule 101 (line 750):
+   $1 = nterm VariableDeclaratorId ()
+   $2 = token EQUALS ()
+   $3 = nterm VariableInitializer ()
+-> $$ = nterm VariableDeclarator ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208
+Entering state 129
+Reducing stack by rule 98 (line 725):
+   $1 = nterm VariableDeclarator ()
+-> $$ = nterm VariableDeclarators ()
+Stack now 0 25 43 60 104 68 120 146 173 295 208
+Entering state 330
+Next token is token SEMICOLON ()
+Reducing stack by rule 170 (line 1297):
+   $1 = nterm Type ()
+   $2 = nterm VariableDeclarators ()
+-> $$ = nterm LocalVariableDeclaration ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 217
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 337
+Reducing stack by rule 168 (line 1286):
+   $1 = nterm LocalVariableDeclaration ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm LocalVariableDeclarationStatement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 216
+Reducing stack by rule 166 (line 1275):
+   $1 = nterm LocalVariableDeclarationStatement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 295
+Reading a token: Next token is token RETURN ()
+Shifting token RETURN ()
+Entering state 198
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 265
+Reading a token: Next token is token ASTERISK ()
+Reducing stack by rule 319 (line 2328):
+   $1 = nterm Name ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 270
+Next token is token ASTERISK ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 278
+Next token is token ASTERISK ()
+Shifting token ASTERISK ()
+Entering state 371
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 302
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 319 (line 2328):
+   $1 = nterm Name ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198 278 371
+Entering state 447
+Reducing stack by rule 340 (line 2415):
+   $1 = nterm MultiplicativeExpression ()
+   $2 = token ASTERISK ()
+   $3 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 120 146 173 295 198
+Entering state 319
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 412
+Reducing stack by rule 274 (line 1870):
+   $1 = token RETURN ()
+   $2 = nterm Expression ()
+   $3 = token SEMICOLON ()
+-> $$ = nterm ReturnStatement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 232
+Reducing stack by rule 189 (line 1347):
+   $1 = nterm ReturnStatement ()
+-> $$ = nterm StatementWithoutTrailingSubstatement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 219
+Reducing stack by rule 171 (line 1319):
+   $1 = nterm StatementWithoutTrailingSubstatement ()
+-> $$ = nterm Statement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 218
+Reducing stack by rule 167 (line 1279):
+   $1 = nterm Statement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 120 146 173
+Entering state 295
+Reading a token: Next token is token RIGHTCURLYBRACE ()
+Reducing stack by rule 161 (line 1245):
+-> $$ = nterm $@11 ()
+Stack now 0 25 43 60 104 68 120 146 173 295
+Entering state 392
+Next token is token RIGHTCURLYBRACE ()
+Shifting token RIGHTCURLYBRACE ()
+Entering state 469
+Reducing stack by rule 162 (line 1240):
+   $1 = token LEFTCURLYBRACE ()
+   $2 = nterm $@10 ()
+   $3 = nterm BlockStatements ()
+   $4 = nterm $@11 ()
+   $5 = token RIGHTCURLYBRACE ()
+-> $$ = nterm Block ()
+Stack now 0 25 43 60 104 68 120
+Entering state 154
+Reducing stack by rule 120 (line 956):
+   $1 = nterm Block ()
+-> $$ = nterm MethodBody ()
+Stack now 0 25 43 60 104 68 120
+Entering state 153
+Reducing stack by rule 106 (line 794):
+   $1 = nterm MethodHeader ()
+   $2 = nterm MethodBody ()
+-> $$ = nterm MethodDeclaration ()
+Stack now 0 25 43 60 104 68
+Entering state 119
+Reducing stack by rule 94 (line 683):
+   $1 = nterm MethodDeclaration ()
+-> $$ = nterm ClassMemberDeclaration ()
+Stack now 0 25 43 60 104 68
+Entering state 117
+Reducing stack by rule 90 (line 670):
+   $1 = nterm ClassMemberDeclaration ()
+-> $$ = nterm ClassBodyDeclaration ()
+Stack now 0 25 43 60 104 68
+Entering state 116
+Reducing stack by rule 88 (line 655):
+   $1 = nterm ClassBodyDeclaration ()
+-> $$ = nterm ClassBodyDeclarations ()
+Stack now 0 25 43 60 104 68
+Entering state 115
+Reading a token: Next token is token PUBLIC ()
+Shifting token PUBLIC ()
+Entering state 11
+Reducing stack by rule 60 (line 513):
+   $1 = token PUBLIC ()
+-> $$ = nterm Modifier ()
+Stack now 0 25 43 60 104 68 115
+Entering state 26
+Reducing stack by rule 58 (line 505):
+   $1 = nterm Modifier ()
+-> $$ = nterm Modifiers ()
+Stack now 0 25 43 60 104 68 115
+Entering state 113
+Reading a token: Next token is token INT ()
+Shifting token INT ()
+Entering state 81
+Reducing stack by rule 21 (line 333):
+   $1 = token INT ()
+-> $$ = nterm IntegralType ()
+Stack now 0 25 43 60 104 68 115 113
+Entering state 88
+Reducing stack by rule 17 (line 314):
+   $1 = nterm IntegralType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 115 113
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 115 113
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 115 113
+Entering state 135
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 113 135
+Entering state 127
+Reading a token: Next token is token LEFTROUNDBRACE ()
+Shifting token LEFTROUNDBRACE ()
+Entering state 159
+Reading a token: Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 109 (line 859):
+-> $$ = nterm $@5 ()
+Stack now 0 25 43 60 104 68 115 113 135 127 159
+Entering state 253
+Next token is token RIGHTROUNDBRACE ()
+Shifting token RIGHTROUNDBRACE ()
+Entering state 357
+Reducing stack by rule 110 (line 858):
+   $1 = nterm Identifier ()
+   $2 = token LEFTROUNDBRACE ()
+   $3 = nterm $@5 ()
+   $4 = token RIGHTROUNDBRACE ()
+-> $$ = nterm MethodDeclarator ()
+Stack now 0 25 43 60 104 68 115 113 135
+Entering state 169
+Reading a token: Next token is token LEFTCURLYBRACE ()
+Reducing stack by rule 108 (line 824):
+   $1 = nterm Modifiers ()
+   $2 = nterm Type ()
+   $3 = nterm MethodDeclarator ()
+-> $$ = nterm MethodHeader ()
+Stack now 0 25 43 60 104 68 115
+Entering state 120
+Next token is token LEFTCURLYBRACE ()
+Shifting token LEFTCURLYBRACE ()
+Entering state 146
+Reading a token: Next token is token DOUBLE ()
+Reducing stack by rule 160 (line 1241):
+-> $$ = nterm $@10 ()
+Stack now 0 25 43 60 104 68 115 120 146
+Entering state 173
+Next token is token DOUBLE ()
+Shifting token DOUBLE ()
+Entering state 79
+Reducing stack by rule 25 (line 352):
+   $1 = token DOUBLE ()
+-> $$ = nterm FloatingPointType ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 89
+Reducing stack by rule 18 (line 318):
+   $1 = nterm FloatingPointType ()
+-> $$ = nterm NumericType ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 87
+Reducing stack by rule 14 (line 301):
+   $1 = nterm NumericType ()
+-> $$ = nterm PrimitiveType ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 86
+Reading a token: Next token is token IDENT ()
+Reducing stack by rule 12 (line 290):
+   $1 = nterm PrimitiveType ()
+-> $$ = nterm Type ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 208
+Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 208
+Entering state 255
+Reducing stack by rule 102 (line 762):
+   $1 = nterm Identifier ()
+-> $$ = nterm VariableDeclaratorId ()
+Stack now 0 25 43 60 104 68 115 120 146 173 208
+Entering state 130
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 100 (line 746):
+   $1 = nterm VariableDeclaratorId ()
+-> $$ = nterm VariableDeclarator ()
+Stack now 0 25 43 60 104 68 115 120 146 173 208
+Entering state 129
+Reducing stack by rule 98 (line 725):
+   $1 = nterm VariableDeclarator ()
+-> $$ = nterm VariableDeclarators ()
+Stack now 0 25 43 60 104 68 115 120 146 173 208
+Entering state 330
+Next token is token SEMICOLON ()
+Reducing stack by rule 170 (line 1297):
+   $1 = nterm Type ()
+   $2 = nterm VariableDeclarators ()
+-> $$ = nterm LocalVariableDeclaration ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 217
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 337
+Reducing stack by rule 168 (line 1286):
+   $1 = nterm LocalVariableDeclaration ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm LocalVariableDeclarationStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 216
+Reducing stack by rule 166 (line 1275):
+   $1 = nterm LocalVariableDeclarationStatement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 215
+Reducing stack by rule 164 (line 1259):
+   $1 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 295
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 206
+Reading a token: Next token is token EQUALS ()
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 209
+Next token is token EQUALS ()
+Reducing stack by rule 374 (line 2711):
+   $1 = nterm Name ()
+-> $$ = nterm LeftHandSide ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 249
+Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 343
+Reducing stack by rule 377 (line 2726):
+   $1 = token EQUALS ()
+-> $$ = nterm AssignmentOperator ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249
+Entering state 355
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 265
+Reading a token: Next token is token LEFTROUNDBRACE ()
+Shifting token LEFTROUNDBRACE ()
+Entering state 331
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 265
+Reading a token: Next token is token COMMA ()
+Reducing stack by rule 319 (line 2328):
+   $1 = nterm Name ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 270
+Next token is token COMMA ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 278
+Next token is token COMMA ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 279
+Next token is token COMMA ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 280
+Next token is token COMMA ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 281
+Next token is token COMMA ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 282
+Next token is token COMMA ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 283
+Next token is token COMMA ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 284
+Next token is token COMMA ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 285
+Next token is token COMMA ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 286
+Next token is token COMMA ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 287
+Next token is token COMMA ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 416
+Reducing stack by rule 297 (line 2017):
+   $1 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 486
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 237
+Reading a token: Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 236
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 270
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 278
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 279
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 280
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 281
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 282
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 283
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 284
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 285
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 286
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 287
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 524
+Reducing stack by rule 298 (line 2024):
+   $1 = nterm ArgumentList ()
+   $2 = token COMMA ()
+   $3 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token RIGHTROUNDBRACE ()
+Shifting token RIGHTROUNDBRACE ()
+Entering state 497
+Reducing stack by rule 310 (line 2129):
+   $1 = nterm Name ()
+   $2 = token LEFTROUNDBRACE ()
+   $3 = nterm ArgumentList ()
+   $4 = token RIGHTROUNDBRACE ()
+-> $$ = nterm MethodInvocation ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 269
+Reducing stack by rule 293 (line 1955):
+   $1 = nterm MethodInvocation ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 237
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 435
+Reducing stack by rule 373 (line 2699):
+   $1 = nterm LeftHandSide ()
+   $2 = nterm AssignmentOperator ()
+   $3 = nterm AssignmentExpression ()
+-> $$ = nterm Assignment ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 248
+Reducing stack by rule 197 (line 1379):
+   $1 = nterm Assignment ()
+-> $$ = nterm StatementExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 223
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 338
+Reducing stack by rule 196 (line 1366):
+   $1 = nterm StatementExpression ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm ExpressionStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 222
+Reducing stack by rule 184 (line 1342):
+   $1 = nterm ExpressionStatement ()
+-> $$ = nterm StatementWithoutTrailingSubstatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 219
+Reducing stack by rule 171 (line 1319):
+   $1 = nterm StatementWithoutTrailingSubstatement ()
+-> $$ = nterm Statement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 218
+Reducing stack by rule 167 (line 1279):
+   $1 = nterm Statement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 295
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 206
+Reading a token: Next token is token EQUALS ()
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 209
+Next token is token EQUALS ()
+Reducing stack by rule 374 (line 2711):
+   $1 = nterm Name ()
+-> $$ = nterm LeftHandSide ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 249
+Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 343
+Reducing stack by rule 377 (line 2726):
+   $1 = token EQUALS ()
+-> $$ = nterm AssignmentOperator ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249
+Entering state 355
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 265
+Reading a token: Next token is token LEFTROUNDBRACE ()
+Shifting token LEFTROUNDBRACE ()
+Entering state 331
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 237
+Reading a token: Next token is token COMMA ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 236
+Next token is token COMMA ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 270
+Next token is token COMMA ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 278
+Next token is token COMMA ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 279
+Next token is token COMMA ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 280
+Next token is token COMMA ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 281
+Next token is token COMMA ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 282
+Next token is token COMMA ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 283
+Next token is token COMMA ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 284
+Next token is token COMMA ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 285
+Next token is token COMMA ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 286
+Next token is token COMMA ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 287
+Next token is token COMMA ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 416
+Reducing stack by rule 297 (line 2017):
+   $1 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 486
+Reading a token: Next token is token DOUBLELITERAL ()
+Shifting token DOUBLELITERAL ()
+Entering state 181
+Reducing stack by rule 6 (line 250):
+   $1 = token DOUBLELITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 237
+Reading a token: Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 236
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 270
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 278
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 279
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 280
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 281
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 282
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 283
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 284
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 285
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 286
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 287
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 524
+Reducing stack by rule 298 (line 2024):
+   $1 = nterm ArgumentList ()
+   $2 = token COMMA ()
+   $3 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token RIGHTROUNDBRACE ()
+Shifting token RIGHTROUNDBRACE ()
+Entering state 497
+Reducing stack by rule 310 (line 2129):
+   $1 = nterm Name ()
+   $2 = token LEFTROUNDBRACE ()
+   $3 = nterm ArgumentList ()
+   $4 = token RIGHTROUNDBRACE ()
+-> $$ = nterm MethodInvocation ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 269
+Reducing stack by rule 293 (line 1955):
+   $1 = nterm MethodInvocation ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 237
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 435
+Reducing stack by rule 373 (line 2699):
+   $1 = nterm LeftHandSide ()
+   $2 = nterm AssignmentOperator ()
+   $3 = nterm AssignmentExpression ()
+-> $$ = nterm Assignment ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 248
+Reducing stack by rule 197 (line 1379):
+   $1 = nterm Assignment ()
+-> $$ = nterm StatementExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 223
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 338
+Reducing stack by rule 196 (line 1366):
+   $1 = nterm StatementExpression ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm ExpressionStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 222
+Reducing stack by rule 184 (line 1342):
+   $1 = nterm ExpressionStatement ()
+-> $$ = nterm StatementWithoutTrailingSubstatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 219
+Reducing stack by rule 171 (line 1319):
+   $1 = nterm StatementWithoutTrailingSubstatement ()
+-> $$ = nterm Statement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 218
+Reducing stack by rule 167 (line 1279):
+   $1 = nterm Statement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 295
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 206
+Reading a token: Next token is token EQUALS ()
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 209
+Next token is token EQUALS ()
+Reducing stack by rule 374 (line 2711):
+   $1 = nterm Name ()
+-> $$ = nterm LeftHandSide ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 249
+Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 343
+Reducing stack by rule 377 (line 2726):
+   $1 = token EQUALS ()
+-> $$ = nterm AssignmentOperator ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249
+Entering state 355
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 265
+Reading a token: Next token is token LEFTROUNDBRACE ()
+Shifting token LEFTROUNDBRACE ()
+Entering state 331
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 237
+Reading a token: Next token is token COMMA ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 236
+Next token is token COMMA ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 270
+Next token is token COMMA ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 278
+Next token is token COMMA ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 279
+Next token is token COMMA ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 280
+Next token is token COMMA ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 281
+Next token is token COMMA ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 282
+Next token is token COMMA ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 283
+Next token is token COMMA ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 284
+Next token is token COMMA ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 285
+Next token is token COMMA ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 286
+Next token is token COMMA ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 287
+Next token is token COMMA ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 416
+Reducing stack by rule 297 (line 2017):
+   $1 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 486
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 237
+Reading a token: Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 236
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 270
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 278
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 279
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 280
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 281
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 282
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 283
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 284
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 285
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 286
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 287
+Next token is token RIGHTROUNDBRACE ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331 430 486
+Entering state 524
+Reducing stack by rule 298 (line 2024):
+   $1 = nterm ArgumentList ()
+   $2 = token COMMA ()
+   $3 = nterm Expression ()
+-> $$ = nterm ArgumentList ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355 265 331
+Entering state 430
+Next token is token RIGHTROUNDBRACE ()
+Shifting token RIGHTROUNDBRACE ()
+Entering state 497
+Reducing stack by rule 310 (line 2129):
+   $1 = nterm Name ()
+   $2 = token LEFTROUNDBRACE ()
+   $3 = nterm ArgumentList ()
+   $4 = token RIGHTROUNDBRACE ()
+-> $$ = nterm MethodInvocation ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 269
+Reducing stack by rule 293 (line 1955):
+   $1 = nterm MethodInvocation ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 237
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 278
+Next token is token SEMICOLON ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 249 355
+Entering state 435
+Reducing stack by rule 373 (line 2699):
+   $1 = nterm LeftHandSide ()
+   $2 = nterm AssignmentOperator ()
+   $3 = nterm AssignmentExpression ()
+-> $$ = nterm Assignment ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 248
+Reducing stack by rule 197 (line 1379):
+   $1 = nterm Assignment ()
+-> $$ = nterm StatementExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 223
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 338
+Reducing stack by rule 196 (line 1366):
+   $1 = nterm StatementExpression ()
+   $2 = token SEMICOLON ()
+-> $$ = nterm ExpressionStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 222
+Reducing stack by rule 184 (line 1342):
+   $1 = nterm ExpressionStatement ()
+-> $$ = nterm StatementWithoutTrailingSubstatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 219
+Reducing stack by rule 171 (line 1319):
+   $1 = nterm StatementWithoutTrailingSubstatement ()
+-> $$ = nterm Statement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 218
+Reducing stack by rule 167 (line 1279):
+   $1 = nterm Statement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 295
+Reading a token: Next token is token RETURN ()
+Shifting token RETURN ()
+Entering state 198
+Reading a token: Next token is token IDENT ()
+Shifting token IDENT ()
+Entering state 29
+Reducing stack by rule 2 (line 226):
+   $1 = token IDENT ()
+-> $$ = nterm Identifier ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 31
+Reducing stack by rule 36 (line 421):
+   $1 = nterm Identifier ()
+-> $$ = nterm SimpleName ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 33
+Reducing stack by rule 34 (line 410):
+   $1 = nterm SimpleName ()
+-> $$ = nterm Name ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 265
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 319 (line 2328):
+   $1 = nterm Name ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 270
+Next token is token PLUS ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 278
+Next token is token PLUS ()
+Reducing stack by rule 343 (line 2451):
+   $1 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 279
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 374
+Reading a token: Next token is token INTEGERLITERAL ()
+Shifting token INTEGERLITERAL ()
+Entering state 178
+Reducing stack by rule 3 (line 232):
+   $1 = token INTEGERLITERAL ()
+-> $$ = nterm Literal ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 207
+Reducing stack by rule 288 (line 1950):
+   $1 = nterm Literal ()
+-> $$ = nterm PrimaryNoNewArray ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 237
+Reading a token: Next token is token SEMICOLON ()
+Reducing stack by rule 286 (line 1945):
+   $1 = nterm PrimaryNoNewArray ()
+-> $$ = nterm Primary ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 236
+Next token is token SEMICOLON ()
+Reducing stack by rule 318 (line 2327):
+   $1 = nterm Primary ()
+-> $$ = nterm PostfixExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 270
+Next token is token SEMICOLON ()
+Reducing stack by rule 331 (line 2357):
+   $1 = nterm PostfixExpression ()
+-> $$ = nterm UnaryExpressionNotPlusMinus ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 276
+Reducing stack by rule 328 (line 2346):
+   $1 = nterm UnaryExpressionNotPlusMinus ()
+-> $$ = nterm UnaryExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 273
+Reducing stack by rule 339 (line 2414):
+   $1 = nterm UnaryExpression ()
+-> $$ = nterm MultiplicativeExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198 279 374
+Entering state 450
+Next token is token SEMICOLON ()
+Reducing stack by rule 344 (line 2452):
+   $1 = nterm AdditiveExpression ()
+   $2 = token PLUS ()
+   $3 = nterm MultiplicativeExpression ()
+-> $$ = nterm AdditiveExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 279
+Next token is token SEMICOLON ()
+Reducing stack by rule 346 (line 2477):
+   $1 = nterm AdditiveExpression ()
+-> $$ = nterm ShiftExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 280
+Next token is token SEMICOLON ()
+Reducing stack by rule 350 (line 2520):
+   $1 = nterm ShiftExpression ()
+-> $$ = nterm RelationalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 281
+Next token is token SEMICOLON ()
+Reducing stack by rule 356 (line 2575):
+   $1 = nterm RelationalExpression ()
+-> $$ = nterm EqualityExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 282
+Next token is token SEMICOLON ()
+Reducing stack by rule 359 (line 2604):
+   $1 = nterm EqualityExpression ()
+-> $$ = nterm AndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 283
+Next token is token SEMICOLON ()
+Reducing stack by rule 361 (line 2619):
+   $1 = nterm AndExpression ()
+-> $$ = nterm ExclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 284
+Next token is token SEMICOLON ()
+Reducing stack by rule 363 (line 2634):
+   $1 = nterm ExclusiveOrExpression ()
+-> $$ = nterm InclusiveOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 285
+Next token is token SEMICOLON ()
+Reducing stack by rule 365 (line 2649):
+   $1 = nterm InclusiveOrExpression ()
+-> $$ = nterm ConditionalAndExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 286
+Next token is token SEMICOLON ()
+Reducing stack by rule 367 (line 2664):
+   $1 = nterm ConditionalAndExpression ()
+-> $$ = nterm ConditionalOrExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 287
+Next token is token SEMICOLON ()
+Reducing stack by rule 369 (line 2679):
+   $1 = nterm ConditionalOrExpression ()
+-> $$ = nterm ConditionalExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 288
+Reducing stack by rule 371 (line 2694):
+   $1 = nterm ConditionalExpression ()
+-> $$ = nterm AssignmentExpression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 289
+Reducing stack by rule 389 (line 2741):
+   $1 = nterm AssignmentExpression ()
+-> $$ = nterm Expression ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295 198
+Entering state 319
+Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 412
+Reducing stack by rule 274 (line 1870):
+   $1 = token RETURN ()
+   $2 = nterm Expression ()
+   $3 = token SEMICOLON ()
+-> $$ = nterm ReturnStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 232
+Reducing stack by rule 189 (line 1347):
+   $1 = nterm ReturnStatement ()
+-> $$ = nterm StatementWithoutTrailingSubstatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 219
+Reducing stack by rule 171 (line 1319):
+   $1 = nterm StatementWithoutTrailingSubstatement ()
+-> $$ = nterm Statement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 218
+Reducing stack by rule 167 (line 1279):
+   $1 = nterm Statement ()
+-> $$ = nterm BlockStatement ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 336
+Reducing stack by rule 165 (line 1263):
+   $1 = nterm BlockStatements ()
+   $2 = nterm BlockStatement ()
+-> $$ = nterm BlockStatements ()
+Stack now 0 25 43 60 104 68 115 120 146 173
+Entering state 295
+Reading a token: Next token is token RIGHTCURLYBRACE ()
+Reducing stack by rule 161 (line 1245):
+-> $$ = nterm $@11 ()
+Stack now 0 25 43 60 104 68 115 120 146 173 295
+Entering state 392
+Next token is token RIGHTCURLYBRACE ()
+Shifting token RIGHTCURLYBRACE ()
+Entering state 469
+Reducing stack by rule 162 (line 1240):
+   $1 = token LEFTCURLYBRACE ()
+   $2 = nterm $@10 ()
+   $3 = nterm BlockStatements ()
+   $4 = nterm $@11 ()
+   $5 = token RIGHTCURLYBRACE ()
+-> $$ = nterm Block ()
+Stack now 0 25 43 60 104 68 115 120
+Entering state 154
+Reducing stack by rule 120 (line 956):
+   $1 = nterm Block ()
+-> $$ = nterm MethodBody ()
+Stack now 0 25 43 60 104 68 115 120
+Entering state 153
+Reducing stack by rule 106 (line 794):
+   $1 = nterm MethodHeader ()
+   $2 = nterm MethodBody ()
+-> $$ = nterm MethodDeclaration ()
+Stack now 0 25 43 60 104 68 115
+Entering state 119
+Reducing stack by rule 94 (line 683):
+   $1 = nterm MethodDeclaration ()
+-> $$ = nterm ClassMemberDeclaration ()
+Stack now 0 25 43 60 104 68 115
+Entering state 117
+Reducing stack by rule 90 (line 670):
+   $1 = nterm ClassMemberDeclaration ()
+-> $$ = nterm ClassBodyDeclaration ()
+Stack now 0 25 43 60 104 68 115
+Entering state 151
+Reducing stack by rule 89 (line 659):
+   $1 = nterm ClassBodyDeclarations ()
+   $2 = nterm ClassBodyDeclaration ()
+-> $$ = nterm ClassBodyDeclarations ()
+Stack now 0 25 43 60 104 68
+Entering state 115
+Reading a token: Next token is token RIGHTCURLYBRACE ()
+Shifting token RIGHTCURLYBRACE ()
+Entering state 150
+Reducing stack by rule 87 (line 648):
+   $1 = token LEFTCURLYBRACE ()
+   $2 = nterm ClassBodyDeclarations ()
+   $3 = token RIGHTCURLYBRACE ()
+-> $$ = nterm ClassBody ()
+Stack now 0 25 43 60 104
+Entering state 140
+Reducing stack by rule 77 (line 571):
+   $1 = nterm Modifiers ()
+   $2 = token CLASS ()
+   $3 = nterm Identifier ()
+   $4 = nterm $@3 ()
+   $5 = nterm ClassBody ()
+-> $$ = nterm ClassDeclaration ()
+Stack now 0
+Entering state 27
+Reducing stack by rule 55 (line 493):
+   $1 = nterm ClassDeclaration ()
+-> $$ = nterm TypeDeclaration ()
+Stack now 0
+Entering state 24
+Reducing stack by rule 48 (line 460):
+   $1 = nterm TypeDeclaration ()
+-> $$ = nterm TypeDeclarations ()
+Stack now 0
+Entering state 19
+Reading a token: Now at end of input.
+Reducing stack by rule 44 (line 449):
+   $1 = nterm TypeDeclarations ()
+-> $$ = nterm CompilationUnit ()
+Stack now 0
+Entering state 17
+Reducing stack by rule 1 (line 218):
+   $1 = nterm CompilationUnit ()
+-> $$ = nterm Goal ()
+Stack now 0
+Entering state 16
+Now at end of input.
+Shifting token $end ()
+Entering state 37
+Stack now 0 16 37
+Cleanup: popping token $end ()
+Cleanup: popping nterm Goal ()
